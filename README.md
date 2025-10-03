@@ -1,8 +1,6 @@
 # projekt-frontend
 Projekt frontendowy - statyczny widok responsywnej strony.
 
-#PROJEKT CRAFTON
-
 ## Struktura projektu
 Projekt umieszczony jest w folderze projekt-crafton, który zawiera cztery główne podfoldery:
 	•	css/ – pięć plików CSS odpowiedzialnych za wygląd strony. Kaskady zostały podzielone tematycznie, aby zwiększyć czytelność i ograniczyć długość pojedynczych plików.
