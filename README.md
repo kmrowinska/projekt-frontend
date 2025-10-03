@@ -6,7 +6,7 @@ Projekt umieszczony jest w folderze projekt-crafton, który zawiera cztery głó
 	•	css/ – pięć plików CSS odpowiedzialnych za wygląd strony. Kaskady zostały podzielone tematycznie, aby zwiększyć czytelność i ograniczyć długość pojedynczych plików. <br>
 	•	images/ – zasoby graficzne (loga, zdjęcia do sliderów itp.).<br>
 	•	js/ – folder z głównym plikiem JavaScript (main.js).<br>
-	•	pages/ – dodatkowe podstrony. Większość z nich jest przykładowa i została utworzona do testów nawigacji (np. strona inwestycji).<br>
+	•	pages/ – dodatkowe podstrony. Większość z nich jest przykładowa i została utworzona do testów nawigacji (np. strona inwestycji) dlatego są one puste.<br>
 Oprócz folderów w projekcie znajdują się także:<br>
 	•	index.html – strona główna projektu (zawiera nagłówek, slider, formularz kontaktowy, stopkę)<br>
 	•	navbar.html – fragment HTML z menu nawigacyjnym, wczytywany dynamicznie (taka struktura, ze wzg. na ławtiejsze wczytywanie na innych stronach).<br>
@@ -22,7 +22,7 @@ Funkcje w kodzie:<br>
 Dzięki tej strukturze kod jest łatwy do dalszej rozbudowy i ewentualnego przeniesienia do innych plików js.<br>
 
 ## Uruchomienie
-Projekt mozna uruchomic w przeglądarce poprzez uruchomienie pliku index.html.<br>
+Projekt mozna uruchomic w przeglądarce poprzez uruchomienie strony: https://kmrowinska.github.io/projekt-frontend/
 Opcjonalnie, mozna uruchomic prosty lokalny serwer poprzez komendę:<br>
 python3 -m http.server 8000 i wejść na stronę http://localhost:8000<br>
 
