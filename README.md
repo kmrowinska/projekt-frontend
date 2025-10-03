@@ -22,7 +22,7 @@ Funkcje w kodzie:<br>
 Dzięki tej strukturze kod jest łatwy do dalszej rozbudowy i ewentualnego przeniesienia do innych plików js.<br>
 
 ## Uruchomienie
-Projekt mozna uruchomic w przeglądarce poprzez uruchomienie strony: https://kmrowinska.github.io/projekt-frontend/
+Projekt mozna uruchomic w przeglądarce poprzez uruchomienie strony: https://kmrowinska.github.io/projekt-frontend/ <br>
 Opcjonalnie, mozna uruchomic prosty lokalny serwer poprzez komendę:<br>
 python3 -m http.server 8000 i wejść na stronę http://localhost:8000<br>
 
