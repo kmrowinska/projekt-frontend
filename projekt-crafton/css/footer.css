@@ -1,0 +1,39 @@
+.site-footer {
+    background-color: white;
+    padding: 30px 20px; 
+    text-align: center; 
+}
+
+.footer-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.copyright {
+    font-size: 14px;
+    color: #222653; 
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.design-credit {
+    font-size: 14px;
+    color: #222653;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.legal-note {
+    font-size: 10px; 
+    line-height: 1.4;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+.copyright, .design-credit, .legal-note {
+    text-align: center;
+  }
+}

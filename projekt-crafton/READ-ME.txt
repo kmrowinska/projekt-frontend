@@ -1,0 +1,33 @@
+README
+#PROJEKT CRAFTON
+
+## Struktura projektu
+Projekt umieszczony jest w folderze projekt-crafton, który zawiera cztery główne podfoldery:
+	•	css/ – pięć plików CSS odpowiedzialnych za wygląd strony. Kaskady zostały podzielone tematycznie, aby zwiększyć czytelność i ograniczyć długość pojedynczych plików.
+	•	images/ – zasoby graficzne (loga, zdjęcia do sliderów itp.).
+	•	js/ – folder z głównym plikiem JavaScript (main.js).
+	•	pages/ – dodatkowe podstrony. Większość z nich jest przykładowa i została utworzona do testów nawigacji (np. strona inwestycji).
+Oprócz folderów w projekcie znajdują się także:
+	•	index.html – strona główna projektu (zawiera nagłówek, slider, formularz kontaktowy, stopkę)
+	•	navbar.html – fragment HTML z menu nawigacyjnym, wczytywany dynamicznie (taka struktura, ze wzg. na ławtiejsze wczytywanie na innych stronach).
+
+## Funkcje w main.js
+Ze względu na małą ilość kodu, nie separowałam konkretnych funkcji np. Do sliderów, navabru itd. Kod jest czytelny a funkcje opisane są w taki sposób, że jest wiadome do czego każda z nich ma służyć.
+Funkcje w kodzie:
+	•	initNavbar() – wczytuje navbar.html i inicjalizuje dropdowny oraz hamburger menu
+	•	initDropdowns() – obsługuje rozwijane menu
+	•	initHamburger() – obsługuje menu mobilne
+	•	initButtons() – przekierowuje przyciski .custom-btn i .custom-btn2 na odpowiednie podstrony
+	•	initSlider() – prosty slider do przełączania obrazków
+Dzięki tej strukturze kod jest łatwy do dalszej rozbudowy i ewentualnego przeniesienia do innych plików js.
+
+## Uruchomienie
+Projekt mozna uruchomic w przeglądarce poprzez uruchomienie pliku index.html.
+Opcjonalnie, mozna uruchomic prosty lokalny serwer poprzez komendę:
+python3 -m http.server 8000 i wejść na stronę http://localhost:8000
+
+## Mozliwe usprawnienia
+Projekt mozna potencjalnie usprawnić poprzez:
+- rozdzielenie kodu JavaScript na odpowiednie moduły,
+- dodanie backendu, który obsługuje formularz kontaktowy
+- rozszerzenie podstron z folderu pages o treść i dodanie gotowego menu nawigacyjnego
